@@ -1,0 +1,5 @@
+.check-container > div > div:nth-child(2) {
+  position: absolute !important;
+  z-index: 1;
+  background-color: white
+}

@@ -1,0 +1,4 @@
+{
+  "plugins": ["transform-class-properties"],
+  "optional": ["es7.classProperties"]
+}

@@ -1,0 +1,15 @@
+version: '2'
+services:
+  app:
+    container_name: global_matching
+    image: jmfirth/webpack
+    volumes:
+      - ./app:/app
+    network_mode: "host"
+    environment:
+      - API_HOST=${IP}
+      - DEPLOY=${DEPLOY}
+    command:
+      - npm
+      - run
+      - dev

@@ -1,0 +1,11 @@
+.reactTreeCheckbox {
+  margin-left: 10px;
+  .reactTreeContainer {
+    margin-left: 10px;
+  }
+  .reactTreeNode {
+    .clickable {
+      cursor: pointer;
+    }
+  }
+}
